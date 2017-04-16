@@ -2,67 +2,67 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>HTML Academy: Барбершоп - Страница товара</title>
+    <title>Набор для путешествий "Baxter of California"</title>
   </head>
   <body>
-    <header class="main-header">
+    <header class="page-header">
       <div class="container">
         <nav class="main-navigation">
           <div class="logo">
-            <img src="img/logo.png" width="100" height="55" alt="Барбершоп «Бородинский»">
+            <a href="index.html"><img src="img/logo.png" width="100" height="55" alt="Барбершоп «Бородинский»"></a>
           </div>
-          <ul>
-            <li>
+          <ul class="page-navigation">
+            <li class="page-nav-item">
               <a href="#">Информация</a>
             </li>
-            <li>
+            <li class="page-nav-item">
               <a href="#">Новости</a>
             </li>
-            <li>
+            <li class="page-nav-item">
               <a href="#">Прайс-лист</a>
             </li>
-            <li class="active">
+            <li class="page-nav-item active">
               <a href="#">Магазин</a>
             </li>
-            <li>
+            <li class="page-nav-item">
               <a href="#">Контакты</a>
             </li>
           </ul>
         </nav>
         <div class="user-block">
-        <a class="login" href="#">Вход</a>
+        <a class="login-link" href="#">Вход</a>
         </div>
       </div>
     </header>
     <main class="container">
       <h1>Набор для путешествий "Baxter of California"</h1>
-      <nav class="breadcrumbs">
-        <ul>
-          <li>
+      <nav>
+        <ul class="page-navigation-small">
+          <li class="page-nav-item-small">
             <a href="index.html">Главная</a>
           </li>
-          <li>
+          <li class="page-nav-item-small">
             <a href="#">Магазин</a>
           </li>
-          <li>
+          <li class="page-nav-item-small">
             <a href="catalog.html">Средства для ухода</a>
           </li>
-          <li class="active">
+          <li class="page-nav-item-small active">
             <a href="catalog.html">Набор для путешествий "Baxter of California"</a>
           </li>
         </ul>
       </nav>
-      <div class="images">
+      <div class="gallery-images">
         <img class="images-big" src="http://placehold.it/380x420">
         <img class="images-small" src="http://placehold.it/115x130">
         <img class="images-small" src="http://placehold.it/115x130">
         <img class="images-small" src="http://placehold.it/115x130">
       </div>
-      <div class="details-item">
-        <span class="title-item">Есть в наличии<span class="article">Артикул Dexter-AE</span></span>
-        <p class="about-item">Travel kit - необходимый...</p>
-        <span class="price">3900 руб.</span>
-        <a class="buy" href="#">Купить</a>
+      <section class="about-item-price">
+        <p><span class="about-item-title">Есть в наличии<span class="title-item-article"> Артикул Dexter-AE</span></span></p>
+        <p class="about-item-text">Travel kit - необходимый...</p>
+        <span class="about-item-price">3900 руб.</span>
+        <a class="about-item-action" href="#">Купить</a>
         <h2>В набор входят:</h2>
           <ul>
             <li>Средство...</li>
@@ -71,21 +71,29 @@
             <li>Крем...</li>
             <li>Удобная...</li>
           </ul>
-        </div>
+        </section>
   </main>
-    <footer class="main-footer">
+    <footer class="page-footer">
       <div class="container">
         <section class="footer-contacts">
-          Барбершоп «Бородинский»<br>
-          Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
-          <a href="#">Как нас найти?</a><br>
-          Телефон: +7 (812) 666-02-66
+          <p>Барбершоп «Бородинский»</p>
+          <p>Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8</p>
+          <p><a href="#">Как нас найти?</a></p>
+          <p>Телефон: +7 (812) 666-02-66</p>
         </section>
         <section class="footer-social">
           <p>Давайте дружить!</p>
-          <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
-          <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
-          <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+            <ul>
+              <li class="social-icons">
+                <a class="social-vk" href="#">Вконтакте</a>
+              </li>
+              <li class="social-icons">
+                <a class="social-fb" href="#">Фейсбук</a>
+              </li>
+              <li class="social-icons">
+                <a class="social-inst" href="#">Инстаграм</a>
+              </li>
+            </ul>
         </section>
         <section class="footer-copyright">
           <p>Разработано:</p>
